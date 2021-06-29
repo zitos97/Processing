@@ -1,22 +1,26 @@
 # Processing-Projects
 
+This repository is dedicated to two of my very first self-supervised projects in Processing.
+It contains the implementation of a two-minute animation and of an interactive Tic Tac Toe game.
 
 
-<img src="./Media/Photos/concept2prototype.png">
+<p float="left">
+  <img src="Photos/animation.png" height="100px" />
+  <img src="Photos/ttt1.png" width="20%" /> 
+  <img src="Photos/ttt2.png" width="20%" />
+</p>
+
+
+The full animation can be watched [here](https://youtu.be/5g5aKYJhM1g).
 
 ## Getting Started
 
-These instructions will get you a copy of the project prototype and running on your local machine for your own development and testing purposes. 
-
-The Media folder provides additional photos and videos of prototypes, experiments, materials, etc as reference. 
+These instructions will get you a copy of the projects running on your local machine.  
 
 
 ### Prerequisites
 
-What you need to install the software and how to install them:
-
-* For the code that you might work with the Arduino IDE which can be downloaded [here](https://www.arduino.cc/en/Main/Software).
-
+Please install
 
 ## Running the code
 
