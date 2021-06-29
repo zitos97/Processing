@@ -108,7 +108,7 @@ void setup(){
     laughing = loadImage("./data/laughing.png") ;
     dawn = loadImage("./data/dawn.png") ;
     
-    /* Use the follwowing 2 LoC to add audio to your animation. */
+    /* Use the following 2 LoC to add audio to your animation. */
     // minim = new Minim(this) ;
     // player = minim.loadFile("song.wav") ; 
 }
@@ -119,7 +119,9 @@ void draw(){
       start = 1 ;
     }
     if ( start == 1 ){
-      //player.play() ; 
+      /* Use the following LoC to start the audio on mouse click */
+      // player.play() ; 
+      
       z = z + 1 ; 
     }
     if (   z> 0 && z <= 490 ){ 
