@@ -6,8 +6,8 @@ It contains the implementation of a two-minute animation and of an interactive T
 
 <p float="left">
   <img src="Photos/animation.png" width="38%" />
-  <img src="Photos/ttt1.png" width="25%" /> 
-  <img src="Photos/ttt2.png" width="25%" />
+  <img src="Photos/ttt1.png" width="24.5%" /> 
+  <img src="Photos/ttt2.png" width="24.5%" />
 </p>
 
 
