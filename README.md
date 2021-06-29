@@ -1,13 +1,13 @@
 # Processing-Projects
 
-This repository is dedicated to two of my very first self-supervised projects in Processing.
+This repository is dedicated to two of my very first self-supervised school projects in Processing.
 It contains the implementation of a two-minute animation and of an interactive Tic Tac Toe game.
 
 
-<p float="left">
-  <img src="Photos/animation.png" width="38%" />
-  <img src="Photos/ttt1.png" width="24.5%" /> 
-  <img src="Photos/ttt2.png" width="24.5%" />
+<p float="center">
+  <img src="Photos/animation.png" width="42%" />
+  <img src="Photos/ttt1.png" width="27%" /> 
+  <img src="Photos/ttt2.png" width="27%" />
 </p>
 
 
@@ -17,27 +17,29 @@ The full animation can be watched [here](https://youtu.be/5g5aKYJhM1g).
 
 These instructions will get you a copy of the projects running on your local machine.  
 
-
 ### Prerequisites
 
-Please install
+Please install [Processing 2](https://processing.org/download/). ( ⚠️ I cannot guarantee that the code runs properly in more recent versions.)
 
 ## Running the code
 
-The .ino code can be found in the folder ./Arduino Code
+### Animation
+Download the ./Animation/program folder. Open the program.pde file in the Processing Development Environment (PDE) and run the code.
+Since I am not allowed to publicly share the underlying sound file, feel free to add your own .wav audio file. To do so, store it in ./data and change its name to 'song'. Finally, comment in all lines of code associated with the audio (in total 6 LoC).
 
-Open the code in your Arduino IDE and connect you microcontroller to your PC (note that you might need a FTDI breakout module and a mini USB cable).
-Next, select the appropriate serial port and Arduino Board in the IDE tool bar. Then compile the program by clicking the check symbol and finally upload your program on the microcontroller by clicking on the right arrow. Now, you may disconnect the controller from your PC. For a more detailed description have a look at the [Sew Electric](http://sewelectric.org/diy-projects/3-programming-your-lilypad/) Website.
+
+### Tic Tact Toe
+Download the ./Tic-Tac-Toe/program folder. Open the program.pde file in the Processing Development Environment (PDE) and run the code. And that should be it!
 
 
-## Testing and Troubleshooting
+## Troubleshooting
 
-* In case that your prototype or some parts do not work at all, check for loose connections. I.e., check if the threads are connected tightly to the microcontroller and to the electrical components such as resitors and transistors.
-* To avoid short circuits etc., ensure that there are no conductive yarns crossing each other. In case of crossings, make sure to insulate them such that the threads do no touch each other. The same holds for the yarns' ends that should not touch each other. Tip: You can use, e.g., some hot glue or Sugru to insulate the yarn crossings.
-* Use a power source that fits your microcontroller (usually between 3.3V and 5V).
-* Make sure to use the multimeter for testing purposes correctly. I.e., ensure that there is no loose contact between the conductive parts and the multimeter clips. An inappropriate use might give you unreliable testing results (as demonstrated in the ./Media/Videos/misusedMultimeter.mp4).
+* If you tried to add an audio file to the animated video but the audio does not play, ensure that you added it to the associated ./data folder. Also ensure that you commented in all required lines of code in the program (this should be in total 6 lines). 
+* If the audio still does not play, ensure that you named the file correctly and that it has the required format. 
+* Ensure that you are using Processing 2 because Processing 3 does not support the import of ddf.minim.* anymore (relevant for the animation program). 
+
 
 ## Built With
 
-* [Processing 2.1](https://processing.org/download/) - Coded in PDE (Processing Development Environment)
+* [Processing 2.1](https://processing.org/download/) - Coded in PDE
 
