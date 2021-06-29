@@ -1,7 +1,7 @@
 # Processing-Projects
 
 This repository is dedicated to two of my very first self-supervised school projects in Processing.
-It contains the implementation of a two-minute animation and of an interactive Tic Tac Toe game.
+It contains the implementations of a two-minute animation and an interactive Tic Tac Toe game.
 
 
 <p float="center">
